@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Modern Calculator</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<div class="calculator">
+			<div class="display">
+				<input type="text" id="x" class="input-display">
+				<div id="result" class="display"></div>
+			</div>
+			
+			<div class="keypad">
+				<div class="row">
+					<button id="memoryPlus" class="btn memory">M+</button>
+					<button id="memoryMinus" class="btn memory">M-</button>
+					<button id="memoryRecall" class="btn memory">MRC</button>
+					<button id="clear" class="btn operation">On/C</button>
+				</div>
+				
+				<div class="row">
+					<button id="sqrt" class="btn operation">√</button>
+					<button id="percent" class="btn operation">%</button>
+					<button id="changeSign" class="btn operation">+/-</button>
+					<button id="divide" class="btn operation">÷</button>
+				</div>
+				
+				<div class="row">
+					<button id="7" class="btn number">7</button>
+					<button id="8" class="btn number">8</button>
+					<button id="9" class="btn number">9</button>
+					<button id="multiply" class="btn operation">×</button>
+				</div>
+				
+				<div class="row">
+					<button id="4" class="btn number">4</button>
+					<button id="5" class="btn number">5</button>
+					<button id="6" class="btn number">6</button>
+					<button id="subtract" class="btn operation">-</button>
+				</div>
+				
+				<div class="row">
+					<button id="1" class="btn number">1</button>
+					<button id="2" class="btn number">2</button>
+					<button id="3" class="btn number">3</button>
+					<button id="add" class="btn operation">+</button>
+				</div>
+				
+				<div class="row">
+					<button id="0" class="btn number zero">0</button>
+					<button id="decimal" class="btn number">.</button>
+					<button id="equals" class="btn operation equals">=</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="lib/calculator.js"></script>
+	</body>
+</html>
